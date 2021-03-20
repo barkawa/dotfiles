@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + Return
-	urxvt
+	alacritty
 
 # program launcher
 super + @space
-	rofi -modi combi -font "Fira Code 12" -show combi
+	rofi -show combi
 
 # make sxhkd reload its configuration files:
 super + Escape
