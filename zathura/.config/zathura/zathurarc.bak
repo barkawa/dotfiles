@@ -1,0 +1,72 @@
+### General recoloring settings ###
+# Allow recoloring
+set recolor "true"
+# Don't allow original hue when recoloring
+set recolor-keephue "false"
+# Don't keep original image colors while recoloring
+set recolor-reverse-video "false"
+
+### Theming ###
+# Command line completion entries
+set completion-fg "#c4c5c5"
+set completion-bg "#161719"
+
+# Command line completion group elements
+set completion-group-fg "#2b5a81"
+set completion-group-bg "#161719"
+
+# Current command line completion element
+set completion-highlight-fg "#161719"
+set completion-highlight-bg "#c4c5c5"
+
+# Default foreground/background color
+# set default-fg # TODO
+set default-bg rgba(22,23,25,1)
+
+# Input bar
+set inputbar-fg "#c4c5c5"
+set inputbar-bg "#161719"
+
+# Notification
+set notification-fg "#c4c5c5"
+set notification-bg "#161719"
+
+# Error notification
+set notification-error-fg "#c4c5c5"
+set notification-error-bg "#224164"
+
+# Warning notification
+set notification-warning-fg "#c4c5c5"
+set notification-warning-bg "#224164"
+
+# Tab - TODO
+# set tabbar-fg
+# set tabbar-bg
+
+# Focused tab - TODO
+# set tabbar-focus-fg
+# set tabbar-focus-bg
+
+# Status bar
+set statusbar-fg "#c4c5c5"
+set statusbar-bg "#161719"
+
+# Highlighting parts of the document (e.g. show search results)
+set highlight-color "#2b5a81"
+set highlight-active-color "#2b5a81"
+
+# Represent light/dark colors in recoloring mode
+set recolor-lightcolor rgba(0,0,0,0)
+set recolor-darkcolor "#c4c5c5"
+
+# "Loading..." text
+set render-loading-fg "#c4c5c5"
+set render-loading-bg "#161719"
+
+# Index mode
+set index-fg "#c4c5c5"
+set index-bg "#161719"
+
+# Selected element in index mode
+set index-active-fg "#161719"
+set index-active-bg "#c4c5c5"

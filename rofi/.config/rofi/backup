@@ -5,4 +5,4 @@ configuration {
     
 }
 
-@import "~/.cache/wal/colors-rofi-dark"
+@import "~/.cache/wal/colors-rofi-dark.rasi"

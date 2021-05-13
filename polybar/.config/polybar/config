@@ -1,0 +1,47 @@
+[colors]
+background = ${xrdb:color0:#222}
+background-alt = ${xrdb:color8:#222}
+foreground = ${xrdb:color7:#222}
+foreground-alt = ${xrdb:color15:#222}
+primary = ${xrdb:color1:#222}
+secondary = ${xrdb:color2:#222}
+alert = ${xrdb:color3:#222}
+
+[bar/kawa]
+background = ${colors.background}
+foreground = ${colors.foreground}
+font-0 = "sans-serif:size=12:weight=regular;2"
+font-1 = "sans-serif:size=12:weight=bold;2"
+font-2 = "Source Code Pro:size=12:weight=bold;2"
+height = 28
+;border-bottom-size = 2
+border-color = ${colors.primary}
+modules-left = bspwm
+modules-center = spotify
+modules-right = date
+wm-restack = bspwm
+
+[module/date]
+type = internal/date
+date = %d %b
+time = %H:%M
+label = "%date%   %time%   " 
+label-font = 2
+
+[module/bspwm]
+type = internal/bspwm
+label-focused-foreground = ${colors.primary}
+;label-focused-underline = ${colors.primary}
+label-focused-font = 3
+label-occupied-font = 3
+label-empty-font = 3
+label-separator-font = 3
+
+;label-separator = ""
+;label-separator-padding = 0
+;label-separator-foreground = #ffb52a
+
+[module/spotify]
+type = custom/script
+exec = playerctl metadata --format='{{artist}}  -  {{title}}' --ignore-player firefox
+interval = 2

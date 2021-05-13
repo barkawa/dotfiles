@@ -32,10 +32,11 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-
-udiskie &	# Automount removable drives
-dunst &		# notification daemon
-redshift &	# color shift at night
-wal -R &	# reapply pywal colors and wallpaper
-sxhkd &		# hotkeys for bspwm and other
-bspwm		# window manager
+polybar -r kawa &	# status bar
+udiskie &		# automount removable drives
+dunst &			# notification daemon
+redshift &		# color shift at night
+~/.fehbg &		# wallpaper
+wal -R &		# reapply cached pywal colors and wallpaper
+sxhkd &			# hotkeys for bspwm etc.
+bspwm			# window manager
