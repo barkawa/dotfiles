@@ -10,9 +10,9 @@ alert = ${xrdb:color3:#222}
 [bar/kawa]
 background = ${colors.background}
 foreground = ${colors.foreground}
-font-0 = "sans-serif:size=12:weight=regular;2"
-font-1 = "sans-serif:size=12:weight=bold;2"
-font-2 = "Source Code Pro:size=12:weight=bold;2"
+font-0 = "sans-serif:size=12:weight=regular;3"
+font-1 = "sans-serif:size=12:weight=bold;3"
+font-2 = "Source Code Pro:size=12:weight=bold;3"
 height = 28
 ;border-bottom-size = 2
 border-color = ${colors.primary}
@@ -43,5 +43,5 @@ label-separator-font = 3
 
 [module/spotify]
 type = custom/script
-exec = playerctl metadata --format='{{artist}}  -  {{title}}' --ignore-player firefox
+exec = playerctl metadata --format='{{artist}}  -  {{title}}' --ignore-player firefox --no-messages
 interval = 2
