@@ -1,7 +1,7 @@
 [global]
     font = sans-serif 12
 
-    max_icon_size = 64
+    max_icon_size = 256
 
     # <b>bold</b>
     # <i>italic</i>

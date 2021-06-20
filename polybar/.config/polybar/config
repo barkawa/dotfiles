@@ -3,19 +3,19 @@ background = ${xrdb:color0:#222}
 background-alt = ${xrdb:color8:#222}
 foreground = ${xrdb:color7:#222}
 foreground-alt = ${xrdb:color15:#222}
-primary = ${xrdb:color1:#222}
+primary = ${xrdb:color6:#222}
 secondary = ${xrdb:color2:#222}
 alert = ${xrdb:color3:#222}
 
 [bar/kawa]
 background = ${colors.background}
 foreground = ${colors.foreground}
-font-0 = "sans-serif:size=12:weight=regular;3"
-font-1 = "sans-serif:size=12:weight=bold;3"
-font-2 = "Source Code Pro:size=12:weight=bold;3"
-height = 28
-;border-bottom-size = 2
-border-color = ${colors.primary}
+font-0 = "monospace:size=22:weight=regular;5"
+font-1 = "monospace:size=22:weight=bold;5"
+font-2 = "monospace:size=22:weight=bold;5"
+height = 48
+;border-bottom-size = 4
+;border-color = ${colors.primary}
 modules-left = bspwm
 modules-center = spotify
 modules-right = date
@@ -25,7 +25,7 @@ wm-restack = bspwm
 type = internal/date
 date = %d %b
 time = %H:%M
-label = "%date%   %time%   " 
+label = "%date%  %time% " 
 label-font = 2
 
 [module/bspwm]

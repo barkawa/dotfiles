@@ -1,8 +1,26 @@
 configuration {
     modi: "combi,window,run,ssh";
-    //font: "Poppins 12";
+    font: "monospace regular 24";
     show-icons: true;
-    
+    lines: 10;
 }
 
 @import "~/.cache/wal/colors-rofi-dark"
+
+* {
+    active-foreground: @background;
+    urgent-foreground: @background;
+    alternative-active-foreground: @background;
+    alternative-urgent-foreground: @background;
+    selected-active-foreground: @backround;
+    selected-normal-foreground: @backround;
+    selected-urgent-foreground: @backround;
+}
+
+#element {
+    padding: 4px;
+}
+
+#inputbar {
+    padding: 0px 0px 4px 0px;
+}
