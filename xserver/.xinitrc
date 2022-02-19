@@ -36,9 +36,10 @@ fi
 setxkbmap -layout eu	# keyboard layout
 polybar -r kawa &	# status bar
 udiskie &		# automount removable drives
-dunst &			# notification daemon
+# dunst &			# notification daemon
 redshift &		# color shift at night
 ~/.fehbg &		# wallpaper
 wal -R &		# reapply cached pywal colors and wallpaper
+# picom &
 sxhkd &			# hotkeys for bspwm etc.
 bspwm			# window manager

@@ -1,6 +1,6 @@
 configuration {
-    modi: "combi,window,run,ssh";
-    font: "monospace regular 24";
+    modi: "drun";
+    font: "monospace regular 20";
     show-icons: true;
     lines: 10;
 }
@@ -23,4 +23,8 @@ configuration {
 
 #inputbar {
     padding: 0px 0px 4px 0px;
+}
+
+element-icon {
+    size: 3ch;
 }

@@ -1,3 +1,8 @@
+### Settings from original zathurarc ###
+set selection-clipboard true
+set scroll-step 100
+set render-loading              true
+
 ### General recoloring settings ###
 # Allow recoloring
 set recolor "true"
@@ -8,36 +13,36 @@ set recolor-reverse-video "false"
 
 ### Theming ###
 # Command line completion entries
-set completion-fg "#c4c5c5"
-set completion-bg "#161719"
+set completion-fg "#c6c9c5"
+set completion-bg "#131215"
 
 # Command line completion group elements
-set completion-group-fg "#2b5a81"
-set completion-group-bg "#161719"
+set completion-group-fg "#A59E68"
+set completion-group-bg "#131215"
 
 # Current command line completion element
-set completion-highlight-fg "#161719"
-set completion-highlight-bg "#c4c5c5"
+set completion-highlight-fg "#131215"
+set completion-highlight-bg "#c6c9c5"
 
 # Default foreground/background color
 # set default-fg # TODO
-set default-bg rgba(22,23,25,1)
+set default-bg rgba(19,18,21,1)
 
 # Input bar
-set inputbar-fg "#c4c5c5"
-set inputbar-bg "#161719"
+set inputbar-fg "#c6c9c5"
+set inputbar-bg "#131215"
 
 # Notification
-set notification-fg "#c4c5c5"
-set notification-bg "#161719"
+set notification-fg "#c6c9c5"
+set notification-bg "#131215"
 
 # Error notification
-set notification-error-fg "#c4c5c5"
-set notification-error-bg "#224164"
+set notification-error-fg "#c6c9c5"
+set notification-error-bg "#5F9268"
 
 # Warning notification
-set notification-warning-fg "#c4c5c5"
-set notification-warning-bg "#224164"
+set notification-warning-fg "#c6c9c5"
+set notification-warning-bg "#5F9268"
 
 # Tab - TODO
 # set tabbar-fg
@@ -48,25 +53,25 @@ set notification-warning-bg "#224164"
 # set tabbar-focus-bg
 
 # Status bar
-set statusbar-fg "#c4c5c5"
-set statusbar-bg "#161719"
+set statusbar-fg "#c6c9c5"
+set statusbar-bg "#131215"
 
 # Highlighting parts of the document (e.g. show search results)
-set highlight-color "#2b5a81"
-set highlight-active-color "#2b5a81"
+set highlight-color "#A59E68"
+set highlight-active-color "#A59E68"
 
 # Represent light/dark colors in recoloring mode
 set recolor-lightcolor rgba(0,0,0,0)
-set recolor-darkcolor "#c4c5c5"
+set recolor-darkcolor "#c6c9c5"
 
 # "Loading..." text
-set render-loading-fg "#c4c5c5"
-set render-loading-bg "#161719"
+set render-loading-fg "#c6c9c5"
+set render-loading-bg "#131215"
 
 # Index mode
-set index-fg "#c4c5c5"
-set index-bg "#161719"
+set index-fg "#c6c9c5"
+set index-bg "#131215"
 
 # Selected element in index mode
-set index-active-fg "#161719"
-set index-active-bg "#c4c5c5"
+set index-active-fg "#131215"
+set index-active-bg "#c6c9c5"

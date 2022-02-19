@@ -1,8 +1,0 @@
-configuration {
-    modi: "combi,window,run,ssh";
-    font: "Source Code Pro 12";
-    show-icons: true;
-    
-}
-
-@import "~/.cache/wal/colors-rofi-dark.rasi"

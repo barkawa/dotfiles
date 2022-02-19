@@ -10,11 +10,11 @@ alert = ${xrdb:color3:#222}
 [bar/kawa]
 background = ${colors.background}
 foreground = ${colors.foreground}
-font-0 = "monospace:size=22:weight=regular;5"
-font-1 = "monospace:size=22:weight=bold;5"
-font-2 = "monospace:size=22:weight=bold;5"
+font-0 = "monospace:size=18:weight=regular;5"
+font-1 = "monospace:size=20:weight=bold;5"
+font-2 = "monospace:size=20:weight=light;5"
 height = 48
-;border-bottom-size = 4
+;border-bottom-size = 10
 ;border-color = ${colors.primary}
 modules-left = bspwm
 modules-center = spotify
@@ -32,16 +32,16 @@ label-font = 2
 type = internal/bspwm
 label-focused-foreground = ${colors.primary}
 ;label-focused-underline = ${colors.primary}
-label-focused-font = 3
-label-occupied-font = 3
+label-focused-font = 2
+label-occupied-font = 2
 label-empty-font = 3
-label-separator-font = 3
+label-separator-font = 2
 
-;label-separator = ""
-;label-separator-padding = 0
+label-separator = " "
+label-separator-padding = 0
 ;label-separator-foreground = #ffb52a
 
 [module/spotify]
 type = custom/script
 exec = playerctl metadata --format='{{artist}}  -  {{title}}' --ignore-player firefox --no-messages
-interval = 2
+interval = 1
