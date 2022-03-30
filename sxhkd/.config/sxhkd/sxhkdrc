@@ -8,7 +8,8 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show drun
+#	rofi -show drun
+	ulauncher-toggle
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -141,3 +142,6 @@ XF86AudioMute
 
 super + End
 	systemctl suspend
+
+super + alt + End
+	systemctl hibernate

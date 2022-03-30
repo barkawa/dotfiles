@@ -37,7 +37,7 @@ label-occupied-font = 2
 label-empty-font = 3
 label-separator-font = 2
 
-label-separator = " "
+label-separator = ""
 label-separator-padding = 0
 ;label-separator-foreground = #ffb52a
 

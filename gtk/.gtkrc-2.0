@@ -1,10 +1,10 @@
 gtk-icon-theme-name = "Adwaita-dark"
-gtk-theme-name = "Adwaita-dark"
+gtk-theme-name = "Pop-dark"
 gtk-font-name = "Cantarell 11"
 gtk-cursor-theme-name = "Adwaita"
 gtk-enable-event-sounds = 1
 gtk-enable-input-feedback-sounds = 1
 gtk-xft-antialias = 1
-gtk-xft-hinting = 1
-gtk-xft-hintstyle = "hintslight"
+gtk-xft-hinting = 0
+gtk-xft-hintstyle = "hintnone"
 gtk-xft-rgba = "none"
